@@ -1,0 +1,31 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.html",
+  "scripts": {
+    "serve": "http-server ./dist",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yanichkina/homework_2_1_js.git"
+  },
+  "author": "Yanichkina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yanichkina/homework_2_1_js/issues"
+  },
+  "homepage": "https://github.com/Yanichkina/homework_2_1_js#readme",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
